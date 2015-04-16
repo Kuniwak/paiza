@@ -33,3 +33,8 @@ unittest
 {
   assert(pickOdd("123456789") == "13579");
 }
+
+unittest
+{
+  assert(pickOdd("12 ") == "1 ");
+}
