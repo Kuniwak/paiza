@@ -46,3 +46,9 @@ unittest
 {
   assert(pickOdd("12 ") == "1 ");
 }
+
+debug(caseStdin)
+{
+  import std.stdio;
+  writeln("hogehoge");
+}
