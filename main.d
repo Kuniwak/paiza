@@ -22,3 +22,9 @@ unittest
 {
   assert(pickOdd("a") == "a");
 }
+
+
+unittest
+{
+  assert(pickOdd("ab") == "a");
+}
