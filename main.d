@@ -1,6 +1,14 @@
 string pickOdd(string origStr)
 {
-  return "";
+  string oddStr = "";
+
+  foreach (idx, ch; origStr) {
+    if (idx % 2 == 0) {
+      oddStr ~= ch;
+    }
+  }
+
+  return oddStr;
 }
 
 
